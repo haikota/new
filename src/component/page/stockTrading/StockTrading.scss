@@ -1,0 +1,59 @@
+@import '../../../style/variables.scss';
+
+.stockTrading{
+
+    &__header{
+        padding-top: 20px;
+
+        button{
+            width: 300px;
+            width: 300px;
+            box-shadow: none;
+            color: #000;
+            background-color: #fff;
+            border-color: #e1e1e1;
+            text-align: left;
+        }
+    }
+    &__history{
+        padding-top: 20px;
+        color: $color-blue;
+        .title{
+            font-size: 18px;font-weight: 600;
+        }
+            .hr{
+                width: 100px;
+                float: left;
+                border-top: 3px solid $color-blue2;
+                margin-top: 0;
+            }
+        
+    }
+    &__datetime{
+        margin-top: 50px;
+        border: 1px solid #e8e8e8;
+        box-shadow: 6px 8px 20px 0px #e8e8e8;
+        padding: 10px 10px;
+        border-radius: 10px;
+
+        label{
+            color:$color-blue;
+            font-weight: 600;
+        }
+    }
+    &__data{
+        padding-top: 50px;
+
+        table{
+            thead{
+                background-color: $color-blue2;
+                color: #fff;
+                text-align: center;
+                
+                th{
+                    padding: 0 .75rem;
+                }
+            }
+        }
+    }
+}
